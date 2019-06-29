@@ -1,0 +1,47 @@
+
+
+body{
+  /* background-image: url("../Dhairya/Copy of Instruction.png"); */
+  font-size: 0.85vw;
+  font-stretch: expanded;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  margin-top: 4%;
+  font-size: 5vw;
+  color: #ff0000;
+  font-stretch: extra-expanded;
+}
+
+.jumbotron{
+  border-radius: 10% !important;
+  background-color: #ff0000;
+  color: white;
+  font-size: 2em;
+  font-weight: 550;
+  box-shadow:  50px 50px 45px rgba(360,0,0,0.5) ;
+  border: 1px solid black;
+}
+
+ul{
+  margin-right: auto;
+  margin-bottom: -2%;
+}
+
+img{
+  padding-top: 2%;
+  width: 30vw;
+  align: right;
+  float: right;
+  margin-right: -15%;
+}
+
+.toast{
+  position: absolute;
+}
+
+img :hover{
+  cursor: pointer;
+}

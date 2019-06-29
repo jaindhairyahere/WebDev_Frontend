@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+  </head>
+  <body>
+<ul>
+  <li>table</li>
+  <li>th - Browsers usually display the
+content of a <'th> element in
+bold and in the middle of the cell. -  SCOPE Attribute</li>
+  <li>tr</li>
+  <li>td - Some browsers automatically
+draw lines around the table
+and/or the individual cells.</li>
+</ul>
+
+<h3>Spanning Rows and columns</h3>
+<ul>
+  <li>td rowspan="2"</li>
+  <li>td colspan="3"</li>
+</ul>
+<hr>
+<h4>Without Scope attribute</h4>
+<h5>Colspan</h5>
+<table style="border:4px solid black">
+<tr>
+<th></th>
+<th>9am</th>
+<th>10am</th>
+<th>11am</th>
+<th>12am</th>
+</tr>
+<tr>
+<th>Monday</th>
+<td colspan="2">Geography</td>
+<td>Math</td>
+<td>Art</td>
+</tr>
+<tr>
+<th>Tuesday</th>
+<td colspan="3">Gym</td>
+<td>Home Ec</td>
+</tr>
+</table>
+<h5>Rowspan</h5>
+<table style="border: 4px solid black">
+<tr>
+<th></th>
+<th>ABC</th>
+<th>BBC</th>
+<th>CNN</th>
+</tr>
+<tr>
+<th>6pm - 7pm</th>
+<td rowspan="2">Movie</td>
+<td>Comedy</td>
+<td>News</td>
+</tr>
+<tr>
+<th>7pm - 8pm</th>
+<td>Sport</td>
+<td>Current Affairs</td>
+</tr>
+</table>
+<hr>
+<h4>Now using Scope Attribute</h4>
+<table style="border: 4px solid black">
+  <tr>
+    <th>day</th> <th>9</th><th>10</th><th>11</th>
+  </tr>
+  <tr>
+    <th scope="row">Monday</th>
+  </tr>
+  <tr>
+    <th scope="row">Tuesday</th>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

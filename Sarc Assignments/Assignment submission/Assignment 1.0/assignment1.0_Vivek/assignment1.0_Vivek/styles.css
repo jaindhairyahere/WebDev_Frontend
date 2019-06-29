@@ -1,0 +1,289 @@
+/* 
+	getting fonts from Google fonts
+*/
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Stylish);
+
+/*
+	styling general elements
+*/
+body {
+	background-image: url("images/backhover.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+div{
+	padding: 5px;
+	margin: 10px;
+}
+
+/*
+	styling opening logo
+*/
+div.heading {
+	width: auto;
+	height: 300px;
+	background-attachment: scroll;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+}
+#brand {
+	display: block;
+	background-attachment: scroll;
+	margin: 0px auto;
+	width: 600px;
+	height: 200px;
+	z-index: 20;
+	position: relative;
+	top: 100px;
+	left: -15px;
+}
+#bird {
+	z-index: 30;
+	background-attachment: scroll;
+	height: 215px;
+	width: 284px;
+	position: relative;
+	left: 826px;
+	top: -151px;
+}
+
+/*
+	styling content of page
+*/
+div.content{
+	z-index: 20;
+}
+section {
+	width: auto;
+	padding: 5px;
+	margin: 20px;
+	text-align: center;
+	/*
+	border: 5px solid #6f959b;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	*/
+}
+h1 {
+	text-align: center;
+	font-family: 'Lobster';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 5em;
+	text-decoration: underline;
+	color: #355959;
+	text-shadow: 2px 2px 7px #00ffff;
+}
+h2 {
+	border : 5px solid #cccccc;
+	padding: 20px;
+	margin: 10px;
+	width: 275px;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: inset 0 0 20px #777777;
+	font-size: 2.5em;
+	color: #09003a;
+}
+p {
+	border : 5px solid #cccccc;
+	padding: 20px;
+	margin: 10px;
+	font-size: 1.5em;
+	width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+/*
+	styling section 1: events
+*/
+section.events {
+	height: 1100px;
+	font-family: 'Shadows Into Light';
+	background-attachment: fixed;
+}
+h2.event1 {
+	position: relative;
+	top: 8%;
+	left: 6%;
+}
+p.event1 {
+	position: relative;
+	top: -12%;
+	left: 45%;
+}
+h2.event2 {
+	position: relative;
+	bottom: -1%;
+	right: -65%;
+}
+p.event2 {
+	position: relative;
+	bottom: 25%;
+	left: 6%;
+}
+
+/*
+	styling section 2: video
+*/
+iframe {
+	display: block;
+}
+h2#alumination {
+	font-size: 3em;
+	font-family: 'Lobster';
+	width: 470px;
+	height: 45px;
+	position: relative;
+	left: 23%;
+}
+iframe#alumination2k18 {
+	margin-top: 15px;
+	margin: 5px
+	position: relative;
+	top:3px;
+	left: 3px
+}
+
+/*
+	styling section 3: Gallery;
+*/
+section#slideshow {
+	height: 777px;	
+}
+h2.gallery {
+	position: relative;
+	margin: 0 auto;
+}
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  11% {
+    opacity:1;
+  }
+  16% {
+    opacity:0;
+  }
+  21% {
+    opacity: 0;
+  }
+  26% {
+    opacity: 0;
+  }
+  95% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+div#gallery {
+	position: relative;
+	height: 300px;
+	width: 900px;
+	margin: 30px auto;
+}
+div#gallery img {
+  -webkit-animation-name: cf4FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+  -moz-animation-name: cf4FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 12s;
+  -o-animation-name: cf4FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 12s;
+  animation-name: cf4FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+div#gallery img {
+  position: absolute;
+  left: 0;
+}
+div#gallery img:nth-of-type(1) {
+  animation-delay: 10s;
+}
+div#gallery img:nth-of-type(2) {
+  animation-delay: 8s;
+}
+div#gallery img:nth-of-type(3) {
+  animation-delay: 6s;
+}
+div#gallery img:nth-of-type(4) {
+  animation-delay: 4s;
+}
+div#gallery img:nth-of-type(5) {
+  animation-delay: 2s;
+}
+div#gallery img:nth-of-type(6) {
+  animation-delay: 0;
+}
+.shadow {
+  -webkit-box-shadow: 5px 5px 5px #aaa;
+  -moz-box-shadow: 5px 5px 5px #aaa;
+  box-shadow: 5px 5px 5px #aaa;
+  margin-bottom: 10px;
+}
+
+/*
+	styling section 4: Registration;
+*/
+h2.registration{
+	font-size: 2em;
+}
+section.registration {
+	margin: 10px;
+	padding: 30px;
+	font-size: 1.5em;
+	font-family: 'Stylish';
+	text-align: center;
+}
+.title {
+	text-align: right;
+	padding-right: 10px;
+}
+.radio-buttons label {
+	float: none;
+}
+input {
+	font-size: 120%;
+	color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 5px 5px 30px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+input:focus {
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
+}
+.submit {
+	text-align: right;
+}

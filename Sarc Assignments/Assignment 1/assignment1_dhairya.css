@@ -1,0 +1,179 @@
+/*Opening Section*/
+body{
+  font-family: "Monotype Corsiva",cursive;
+  align-content: center;
+  background-image: url("backhover.svg");
+  background-repeat: no-repeat;
+  font-size: 130%;
+}
+
+.openingsection{
+  overflow: hidden;
+}
+#logo{
+  width: 40%;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 0px;
+  margin-bottom: 30%;
+}
+
+#bird{
+  width: 20%;
+  display: inline;
+  margin-top: 3%;
+  margin-bottom: 30%;
+  margin-left: -2%;
+}
+
+
+/*Event*/
+.events{background-color: navy;}
+
+
+h1{
+  font-size: 300%;
+  color: magenta;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2{
+  color: white;
+  font-size: 175%;
+  text-align: center;
+}
+
+#p1 , #p3{
+  text-align: justify;
+  height: auto;
+  color: white;
+  font-size: 150%;
+  margin-right: 15%;
+  margin-left: 40%;
+  padding-left: 5%;
+}
+
+.event1{
+  height: 9%;
+  background-color: Navy;
+  text-align: center;
+}
+
+.event1 p{
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#ice{
+  float: left;
+  height: 50%;
+  width: 20%;
+  margin: 2% 0% 1% 2%;
+}
+
+#p2{
+  height: auto;
+  font-size: 150%;
+  text-align: justify;
+  color: white;
+  background-color: Navy;
+  padding-left: 10%;
+  margin-right: 40%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-right: 5%;
+}
+
+.event2{
+  height: 9%;
+  background-color: Navy;
+}
+
+#mentor{
+  float: right;
+  margin: 2% 1% 0 0;
+  width: 15%;
+  height: 10%;
+}
+
+
+
+.alumination{
+  margin-top: 5%;
+  height: 9%;
+  text-align: left;
+  background-color: Navy;
+}
+
+.alumination h1{color: White;}
+
+.alumination p{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+}
+
+#video{
+  margin-left: 3%;
+  width: 30%;
+  height: 450px;
+  float: left;
+}
+
+
+.gallery{
+  margin-top: 5%;
+  height: 22%;
+  background-color: yellow;
+}
+
+.gallery img{
+  margin: 1.5% 5% 0.8% 2.5%;
+  height: 45%;
+  width: 25%;
+}
+
+#i1, #i2, #i3 :hover{
+   border: 5px dashed black;
+   transition: border 2s ease 5s;
+}
+
+
+@keyframes myanimation {
+  0% {border-width: 1px;
+    border-style: outset;}
+  50% {border: 5.5px inset green;
+        border-radius: 10px;}
+  100% {border: 1px outset green;}
+}
+#i4, #i5, #i6{
+  animation: myanimation 5s infinite;
+}
+
+
+.regform form{
+  border: 5px solid Black;
+  color: red  ;
+  height: 7%;
+}
+
+.regform{
+  background-color: navy;
+  margin: 5% 10% 1% 10%;
+  padding: 10%;
+}
+
+fieldset{
+  border: 10px solid black;
+}
+
+input{
+  background-color: #f2f2f2;
+  padding: none 10px 15px 10px;
+  margin: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="main.js">
+    </script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <title>Welcome!!</title>
+  </head>
+  <body>
+    <!-- z-index = 1 -->
+    <div class="welcomepanel">
+      <div class="jumbotron text-center">
+        <h1>Good <span id='time'>Evening</span>!! </h1>
+        <button class="btn btn-primary" type="submit" name="button" id='closebtn'> Close </button>
+        <p>I am Dhairya Jain and This is My Official Website. You'll get to know about me and my work through this</p>
+      </div>
+      <div class="MyLogo">
+        <h1 class="MyLogo">DHAIRYA</h1>
+      </div>
+    </div>
+
+
+    <!-- z-index = 0 -->
+    <div class="container-fluid">
+      <div class="jumbotron text-center" id="welcometext">
+        <h1>Welcome Peeps!!</h1>
+        <p>This is my Official Website</p>
+      </div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item navbar-brand">Dhairya Jain</li>
+          <li class="nav-item"> <a class="nav-link" href="#about-section">About</a> </li>
+          <li class="nav-item"> <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation-menu" type="button" name="button">
+          <span class="navbar-toggler-icon"></span> </button> </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navigation-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link disabeled" href="#">Gallery</a> </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+
+        <div class="col-sm-12 col-lg-4" >
+          <h2> About Me </h2>
+          <div class="fakeimg"> My Image </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
