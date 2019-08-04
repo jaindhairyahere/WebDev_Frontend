@@ -2,7 +2,6 @@
 
 body{
   /* background-image: url("../Dhairya/Copy of Instruction.png"); */
-  font-size: 0.85vw;
   font-stretch: expanded;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +29,19 @@ ul{
   margin-bottom: -2%;
 }
 
+@media only screen and (min-width: 720){
+body{
+  /* background-image: url("../Dhairya/Copy of Instruction.png"); */
+  font-size: 0.85vw;
+  font-stretch: expanded;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  img{
+  display: none;
+  }
+  
+}
 img{
   padding-top: 2%;
   width: 30vw;
@@ -37,6 +49,8 @@ img{
   float: right;
   margin-right: -15%;
 }
+
+
 
 .toast{
   position: absolute;
